@@ -3,7 +3,7 @@ const emojiFace = document.getElementById("emoji");
 const generate = document.getElementById("btn");
 const emo = ["😘", "🌭", "😒", "🥗", "😉", "🍔", "😍" ,"🌮"];
 
-emojiFace.innerHTML = 'wow!';
+// emojiFace.innerHTML = 'wow!';
 
 const displayEmo = () => {
     var a = Math.floor(Math.random() * emo.length);   
